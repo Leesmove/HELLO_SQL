@@ -38,6 +38,6 @@ WHERE filtra filas antes de los cálculos.
 HAVING filtra resultados después de los cálculos o agrupaciones.
 */
 
-SELECT *
+SELECT COUNT (age)
 FROM users
-HAVING age > 30; 
+HAVING COUNT(age) > 3; 
